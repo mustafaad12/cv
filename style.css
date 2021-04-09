@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body{
+  margin: 0;
+  text-align: center;
+}
+
+h1, h2, h3{
+  color: #66BFBF;
+}
+
+.top-container{
+  background-color: #caf7e3;
+  position: relative;
+  padding-top: 100px;
+
+  font-family: 'Sacramento', cursive;
+
+
+}
+
+
+.cloud-a{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+
+}
+
+.cloud-b{
+ position: absolute;
+ bottom: 300px;
+ left: 300px;
+}
+
+.top-container h1{
+  margin: 0 auto;
+  font-size: 5em;
+}
+
+.top-container p{
+  margin: 0 auto;
+  font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle-container{
+  font-family: sans-serif;
+
+}
+
+.profile img{
+  width: 15%;
+  margin-top: 10px;
+}
+
+.middle-container h2{
+  font-size: 3em;
+  margin: 20px auto;
+}
+
+.middle-container h3{
+  font-size: 2em;
+  margin: 20px auto;
+}
+
+.middle-container p{
+  font-size: 1em;
+  margin: 20px auto;
+
+}
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row img{
+  width: 25%;
+}
+
+.html-img{
+  float: left;
+  margin-right: 20px;
+}
+
+.css-img{
+  float: right;
+  margin-left: 20px;
+}
+
+.bootstrap-img{
+  float: left;
+  margin-right: 20px;
+}
+
+.javascript-img{
+  float: right;
+  margin-left: 20px;
+}
+
+.card-box{
+  height: 25em;
+  width: 95%;
+  margin: auto auto;
+  background-color: #e4fbff;
+  display: flex;
+  margin-bottom: 3em;
+  border-radius: 5em 6em 7em 0em;
+  align-items: center;
+}
+
+
+.card{
+  flex: 1;
+  background-color: #f9f871;
+  margin: 1.5em;
+  padding-bottom: 0.5em;
+  border-radius: 2em 2em 2em 2em;
+  padding: 5px;
+}
+
+.card img{
+  width: 70%;
+  border-radius: 5em;
+}
+
+.card a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  background-color: #54e346;
+  font-size: 90%;
+  border-radius: 10px;
+  padding: 2px 5px 2px 5px;
+}
+
+.card:hover{
+  border-radius: 4em 2em 4em 2em;
+  filter: drop-shadow(5px 10px 15px blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-container{
+  font-family: sans-serif;
+  background-color: #dbf6e9;
+  padding: 10px 0px;
+}
+
+
+.bottom-container a{
+  text-decoration: none;
+  margin: 30px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  background-color: #26001b;
+
+}
+
+.bottom-container p{
+  margin-top: 30px;
+  font-family: 'Sacramento', cursive;
+  font-size: 3em;
+}
+
+.bottom-container a:hover{
+  border-radius: 20px 0px 20px 0px;
+  background-color: #7868e6;
+}
